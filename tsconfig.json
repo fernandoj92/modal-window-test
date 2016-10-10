@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["dom", "es6"],
+        "noImplicitAny": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules",
+        "typings/main",
+        "typings/main.d.ts",
+        "build"
+    ]
+}
